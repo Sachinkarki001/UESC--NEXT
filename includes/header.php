@@ -40,7 +40,7 @@ require_once 'config/config.php';
             </div>
 
             <!-- Desktop Navigation -->
-            <div class="hidden lg:flex items-center gap-6">
+            <div class="desktop-nav hidden lg:flex items-center gap-6">
                 <?php foreach ($menu_items as $menu_title => $menu_items_array): ?>
                     <div class="dropdown relative">
                         <button class="flex items-center gap-1 text-foreground hover-text-primary transition py-2 nav-link">
@@ -112,7 +112,7 @@ require_once 'config/config.php';
             </div>
 
             <!-- Mobile menu button -->
-            <button id="mobile-menu-btn" class="lg:hidden flex items-center px-3 py-2 border rounded text-foreground border-gray-400 hover-text-primary hover-border-primary">
+            <button id="mobile-menu-btn" class="mobile-menu-btn lg:hidden flex items-center px-3 py-2 border rounded text-foreground border-gray-400 hover-text-primary hover-border-primary">
                 <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
                     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
                 </svg>
